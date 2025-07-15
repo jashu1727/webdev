@@ -8,6 +8,19 @@
 
         return color;
     }
+    var messages = [
+    "Click me!",
+    "Nice!",
+    "Again!",
+    "Fast!",
+    "Boom!",
+    "Try again!",
+    "Great!",
+    "Catch me!"
+];
+function randommessage() {
+    return messages[Math.floor(Math.random() * messages.length)];
+}
 
 
     function show() {
@@ -20,6 +33,8 @@
         document.getElementById("box").style.marginTop=top+"px";
         document.getElementById("box").style.width=size+"px";
         document.getElementById("box").style.height=size+"px";
+        document.getElementById("box").innerHTML=randommessage();
+
 
         
         start = new Date().getTime();
