@@ -1,0 +1,19 @@
+
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+}
