@@ -39,7 +39,7 @@ function randommessage() {
         
         start = new Date().getTime();
     }
-    var start;
+    var start = new Date().getTime();
 
     document.getElementById("box").onclick = function() {
         document.getElementById("box").style.display="none";
