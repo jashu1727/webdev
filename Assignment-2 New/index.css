@@ -1,0 +1,81 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+}
+
+.home {
+    margin-left: 330px;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ser {
+    margin-left: 60px;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about {
+    margin-left: 60px;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.con {
+    margin-left: 60px;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.user {
+    margin-left: 300px;
+    width: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button {
+    background-color: mediumspringgreen;
+    width: 70px;
+    height: 35px;
+    font-size:medium;
+    border-radius: 8px;
+    border-width: 1px;
+}
+.body {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    height: 80vh;
+}
+.text {
+     font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+   
+.right {
+    width: 40%;
+    height: 80vh;
+}
+
+.main {
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+}
