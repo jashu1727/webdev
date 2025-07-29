@@ -49,3 +49,31 @@ button {
     background-color: mediumspringgreen;
     border: 1px dashed black;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .box {
+        width: 90%;
+        height: 120px;
+    }
+
+    #form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #input {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+}
