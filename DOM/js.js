@@ -1,7 +1,12 @@
 document.getElementById("button").onclick = function () {
-    var store=document.getElementById("input").value;
-    document.getElementById("head").innerText= "Hello,"+store;
+    var store = document.getElementById("input").value.trim();
+    if (store) {
+        document.getElementById("head").innerText = "Hello, " + store;
+    } else {
+        document.getElementById("head").innerText = "Hello";
+    }
 }
+
 
 document.getElementById("box-1").onclick = function(){
         this.style.backgroundColor = "red";
